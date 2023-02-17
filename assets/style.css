@@ -1,4 +1,9 @@
 /* General*/
+@font-face {
+    font-family: 'Luxia-Display';
+    src: url('../assets/fonts/Luxia-Display.otf') format('truetype');
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -7,6 +12,11 @@
 
 body{
     scroll-behavior: smooth;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Luxia-Display', sans-serif;
 }
 
 :root{
