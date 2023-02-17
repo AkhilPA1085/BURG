@@ -21,7 +21,7 @@ h1{
 
 :root{
     --secondary-color: #E51E25;
-    --light-blue-color:#9fc4ce;
+    --secondary-color:#9fc4ce;
 }
 
 .swiper {
@@ -54,7 +54,7 @@ h1{
 }
 
 .section-sub-title{
-    color: var(--light-blue-color);
+    color: var(--secondary-color);
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
@@ -62,7 +62,7 @@ h1{
 
 .book-table-btn{
     text-decoration: none;
-    background-color: var(--light-blue-color);
+    background-color: var(--secondary-color);
     padding: 10px 15px;
     color: #fff;
     text-transform: uppercase;
@@ -72,8 +72,8 @@ h1{
 
 .book-table-btn:hover{
     background-color: #fff;
-    border: 2px solid var(--light-blue-color);
-    color: var(--light-blue-color);
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 /* Header */
@@ -313,7 +313,7 @@ nav .nav-link{
 }
 
 .food-menu-item.active{
-    color: var(--light-blue-color);
+    color: var(--secondary-color);
 }
 
 .food-menu .item-price,.menu .item-name{
